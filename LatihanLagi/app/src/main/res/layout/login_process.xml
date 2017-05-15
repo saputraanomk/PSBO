@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/txtViewuname"
+        android:text="Username or email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="90dp"
+        />
+
+    <EditText
+        android:id="@+id/editTxtmail"
+        android:backgroundTintMode="add"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txtViewpass"
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp"
+        />
+
+    <EditText
+        android:id="@+id/editTxtpass"
+        android:backgroundTintMode="add"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:text="password" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="login"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="90dp"
+        android:onClick="onLogin"
+        />
+
+</LinearLayout>
